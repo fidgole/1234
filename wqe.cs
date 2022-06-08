@@ -19,7 +19,7 @@ namespace MathService1
     [WebServiceBinding(ConformsTo = WsiProfiles.BasicProfile1_1)]
     [System.ComponentModel.ToolboxItem(false)]
     // Чтобы разрешить вызывать веб-службу из скрипта с помощью ASP.NET AJAX, раскомментируйте следующую строку.
-    // [System.Web.Script.Services.ScriptService]
+    [System.Web.Script.Services.ScriptService]
 
     public class WeatherForecast
     {
